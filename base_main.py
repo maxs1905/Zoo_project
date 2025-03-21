@@ -3,8 +3,8 @@ import logging
 from aiogram import Bot, Dispatcher
 from aiogram.types import Message
 from aiogram.filters import Command
-from token_data import TOKEN
-from quiz_handler import router
+from Bot.token_data import TOKEN
+from Bot.quiz_handler import router
 
 logging.basicConfig(level=logging.INFO)
 
